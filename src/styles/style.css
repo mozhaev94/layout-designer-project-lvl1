@@ -21,6 +21,7 @@
 /* style basis */ 
 body {
   margin: 0;
+  font-family: 'Open Sans';
 }
 .font-neucha {
   font-family: 'Neucha';
@@ -97,6 +98,10 @@ section {
   color: #2A2626;
 }
 
+.color-white {
+  color:#fff;
+}
+
 /* style basis */ 
 .head-page {
   position: relative;
@@ -156,9 +161,36 @@ margin-top: 0;
 
 #navigation {
   display: flex;
+  flex-wrap: wrap;
+  width: 1310px;
+  justify-content: center;
+  align-items: center;
 }
 
 .navi {
   padding-top: 100px;
   position: static;
+}
+
+.five-points {
+  width: 350px;
+  height: 323px;
+  margin: 10px 15px;
+  margin-right: 60px;
+}
+.five-points h2 {
+  font-size: 52px;
+}
+.card {
+  width: 350px;
+  height: 323px;
+  background: #F5F4F0;
+  padding: 24px;
+  margin: 10px 15px;
+}
+
+.card h2 {
+  font-size: 64px;
+  margin-bottom: 40px;
+  line-height: 1;
 }
