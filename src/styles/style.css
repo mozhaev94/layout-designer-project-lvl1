@@ -164,7 +164,6 @@ margin-top: 0;
   flex-wrap: wrap;
   width: 1310px;
   justify-content: center;
-  align-items: center;
 }
 
 .navi {
@@ -187,6 +186,16 @@ margin-top: 0;
   background: #F5F4F0;
   padding: 24px;
   margin: 10px 15px;
+}
+
+.card:hover {
+  background-color:#FE8A02;
+  color: #fff;
+  transition: all .3s ease;
+}
+
+.card:hover h3 {
+  color: #fff;
 }
 
 .card h2 {
