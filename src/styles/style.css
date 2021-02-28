@@ -90,9 +90,18 @@ section {
   background-color: #42413C;
 }
 
+.bg-color-brown {
+  background-color: #B09A81;
+}
+
 .bg-color-dark {
   background-color: #B09A81;
 }
+
+.bg-color-white {
+  background-color: #fff;
+}
+
 .color-orange {
   color: #FE8A02;
 }
@@ -105,8 +114,16 @@ section {
   color:#fff;
 }
 
+.color-white-dark {
+  color: #D7CCC0;
+}
+
 .color-grey {
   color: #908D8B;
+}
+
+.color-brown {
+  color: #B09A81;
 }
 
 /* style basis */ 
@@ -225,7 +242,6 @@ position: relative;
 
 .cognitive {
   font-family: 'Neucha';
-  color:#908D8B;
   font-size: 24px;
   margin: 0;
 }
@@ -270,4 +286,16 @@ column-gap: 30px;
 
 .paragraph p {
 margin: 0;
+}
+
+#premature-optimization {
+position: relative;
+}
+
+.optimization-content {
+  display: flex;
+}
+
+.optimization-img {
+  margin-left: 30px;
 }
