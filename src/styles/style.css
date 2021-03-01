@@ -164,6 +164,10 @@ margin-top: 0;
   font-weight: 700;
 }
 
+.btn-main:hover {
+  background-color:#EA7600 ;
+}
+
 .btn-main p {
   margin: 0;
   padding: 11px 23px;
@@ -302,4 +306,72 @@ position: relative;
 
 #errors-in-planning {
   position: relative;
+}
+
+.form {
+  height: 190px;
+  width: 1110px;
+  background-color: #42413C;
+  display: flex;
+}
+
+.question {
+  height: 80px;
+  width: 393px;
+  padding: 55px;
+}
+
+.input-email {
+width: 423px;
+padding-left: 67px;
+}
+
+.input-email p {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 38px;
+  margin-bottom: 0;
+}
+
+.input-text {
+  height: 50px;
+  width: 423px;
+  padding-left: 15px;
+  border: none;
+}
+
+.link {
+  font-size: 12px;
+}
+
+.btn-input {
+  width: 70px;
+  height: 50px;
+  background-color: #FE8A02;
+  position: relative;
+  top:68px;
+  left: 18px;
+}
+
+.btn-input::before {
+  content: "";
+  background-image: url(../images/send.svg);
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top:13px;
+  right: 25px;
+}
+
+.btn-input:hover {
+  background-color:#EA7600;
+}
+
+.contact-information {
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 14px;
 }
