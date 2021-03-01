@@ -17,3 +17,5 @@ $ make install
 ```sh
 make lint
 ```
+
+a.mozhaev94.surge.sh
