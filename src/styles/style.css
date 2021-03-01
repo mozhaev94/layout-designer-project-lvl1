@@ -194,6 +194,14 @@ margin-top: 0;
   justify-content: center;
 }
 
+#navigation a,
+#navigation a:visited,
+#navigation a:active,
+#navigation a:focus {
+text-decoration: none;
+color: #2A2626;
+}
+
 .navi {
   padding-top: 100px;
   position: static;
