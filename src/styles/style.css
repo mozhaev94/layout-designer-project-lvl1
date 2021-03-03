@@ -218,8 +218,9 @@ color: #2A2626;
   width: 350px;
   height: 323px;
   margin: 10px 15px;
-  margin-right: 60px;
+  padding: 24px;
 }
+
 .five-points h2 {
   font-size: 52px;
 }
