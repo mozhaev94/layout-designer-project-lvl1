@@ -194,7 +194,7 @@ margin-top: 0;
   margin-bottom: 16px;
 }
 
-#navigation {
+.navigation {
   display: flex;
   flex-wrap: wrap;
   width: 1310px;
