@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Neucha';
-  line-height: 1.2;
+  line-height: 1.2em;
   font-weight: 400;
   margin: 0;
 }
@@ -218,7 +218,8 @@ color: #2A2626;
   width: 350px;
   height: 323px;
   margin: 10px 15px;
-  padding: 24px;
+  padding-right: 48px;
+  padding-top: 12px;
 }
 
 .five-points h2 {
