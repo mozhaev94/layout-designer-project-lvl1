@@ -218,12 +218,11 @@ color: #2A2626;
   width: 350px;
   height: 323px;
   margin: 10px 15px;
-  padding-right: 48px;
-  padding-top: 12px;
+  padding: 24px;
 }
 
 .five-points h2 {
-  font-size: 52px;
+  font-size: 53px;
 }
 .card {
   width: 350px;
