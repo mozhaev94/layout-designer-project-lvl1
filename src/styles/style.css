@@ -219,13 +219,14 @@ color: #2A2626;
   width: 350px;
   height: 323px;
   margin: 10px 15px;
-  padding: 24px;
+  box-sizing: border-box;
 }
 
 .five-points h2 {
   font-size: 53px;
 }
 .card {
+  box-sizing: border-box;
   width: 350px;
   height: 323px;
   background: #F5F4F0;
@@ -234,6 +235,8 @@ color: #2A2626;
 
 .navigation a {
   padding: 15px;
+  width: 350px;
+  height: 323px;
 }
 
 .card:hover {
