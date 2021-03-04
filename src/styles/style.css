@@ -166,6 +166,7 @@ margin-top: 0;
 
 .btn-main:hover {
   background-color:#EA7600 ;
+  cursor: pointer;
 }
 
 .btn-main p {
@@ -198,6 +199,7 @@ margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   width: 1310px;
+  justify-content: center;
 }
 
 #navigation a,
@@ -228,7 +230,10 @@ color: #2A2626;
   height: 323px;
   background: #F5F4F0;
   padding: 24px;
-  margin: 10px 15px;
+}
+
+.navigation a {
+  padding: 15px;
 }
 
 .card:hover {
