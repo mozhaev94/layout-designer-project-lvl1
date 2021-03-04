@@ -59,7 +59,8 @@ p {
 .block {
   position: relative;
   height: auto;
-  width: 1440px;
+  width: 100%;
+  margin: auto;
 }
 
 section {
