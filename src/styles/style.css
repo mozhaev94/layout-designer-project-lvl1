@@ -198,7 +198,6 @@ margin-top: 0;
   display: flex;
   flex-wrap: wrap;
   width: 1310px;
-  justify-content: center;
 }
 
 #navigation a,
