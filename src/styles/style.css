@@ -60,6 +60,7 @@ p {
   position: relative;
   height: auto;
   width: 1440px;
+  margin: auto;
 }
 
 section {
@@ -125,6 +126,9 @@ section {
   color: #B09A81;
 }
 
+.img {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
 /* style basis */ 
 .head-page {
   position: relative;
@@ -272,6 +276,7 @@ position: relative;
   font-family: 'Neucha';
   font-size: 34px;
   margin-top: 30px;
+  display: block;
 }
 
 .content-section {
