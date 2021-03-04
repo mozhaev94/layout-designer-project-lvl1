@@ -60,7 +60,6 @@ p {
   position: relative;
   height: auto;
   width: 1440px;
-  margin: auto;
 }
 
 section {
@@ -277,6 +276,7 @@ position: relative;
   font-size: 34px;
   margin-top: 30px;
   display: block;
+  line-height: 1.2em;
 }
 
 .content-section {
