@@ -1,4 +1,4 @@
-/* fonts */ 
+/* fonts */
 @font-face {
   font-family: 'Neucha';
   src: url('../fonts/Neucha-Regular.ttf');
@@ -16,15 +16,17 @@
   src: url('../fonts/OpenSans-Bold.ttf');
   font-weight: 700;
 }
-/* fonts */ 
 
-/* style basis */ 
+/* fonts */
+
+/* style basis */
 body {
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
+
 .font-neucha {
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   font-weight: 400;
 }
 
@@ -34,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   line-height: 1.2em;
   font-weight: 400;
   margin: 0;
@@ -43,6 +45,7 @@ h6 {
 h1 {
   font-size: 72px;
 }
+
 h2 {
   font-size: 60px;
 }
@@ -53,7 +56,7 @@ h3 {
 
 p {
   line-height: 1.6em;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
 
 .block {
@@ -83,19 +86,19 @@ section {
 }
 
 .bg-color-stand {
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .bg-primary-dark {
-  background-color: #42413C;
+  background-color: #42413c;
 }
 
 .bg-color-brown {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .bg-color-dark {
-  background-color: #B09A81;
+  background-color: #b09a81;
 }
 
 .bg-color-white {
@@ -103,34 +106,35 @@ section {
 }
 
 .color-orange {
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 .color-black {
-  color: #2A2626;
+  color: #2a2626;
 }
 
 .color-white {
-  color:#fff;
+  color: #fff;
 }
 
 .color-white-dark {
-  color: #D7CCC0;
+  color: #d7ccc0;
 }
 
 .color-grey {
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .color-brown {
-  color: #B09A81;
+  color: #b09a81;
 }
 
 .img {
   filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
   padding-top: 7px;
 }
-/* style basis */ 
+
+/* style basis */
 .head-page {
   position: relative;
 }
@@ -138,7 +142,7 @@ section {
 .header-img {
   height: 525px;
   position: absolute;
-  top:55px;
+  top: 55px;
   right: -270px;
 }
 
@@ -146,12 +150,12 @@ section {
   margin-top: 200px;
   columns: 2;
   column-gap: 30px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
 .text-header p {
-margin-top: 0;
+  margin-top: 0;
 }
 
 .btn-main {
@@ -161,15 +165,15 @@ margin-top: 0;
   margin-bottom: 30px;
   width: 148px;
   height: 49px;
-  background-color:#FE8A02;
+  background-color: #fe8a02;
   color: #fff;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 
 .btn-main:hover {
-  background-color:#EA7600 ;
+  background-color: #ea7600;
   cursor: pointer;
 }
 
@@ -187,6 +191,7 @@ margin-top: 0;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .video-section {
   height: 615px;
 }
@@ -206,12 +211,18 @@ margin-top: 0;
   justify-content: center;
 }
 
+.navigation a {
+  padding: 15px;
+  width: 350px;
+  height: 323px;
+}
+
 #navigation a,
 #navigation a:visited,
 #navigation a:active,
 #navigation a:focus {
-text-decoration: none;
-color: #2A2626;
+  text-decoration: none;
+  color: #2a2626;
 }
 
 .navi {
@@ -229,24 +240,19 @@ color: #2A2626;
 .five-points h2 {
   font-size: 53px;
 }
+
 .card {
   box-sizing: border-box;
   width: 350px;
   height: 323px;
-  background: #F5F4F0;
+  background: #f5f4f0;
   padding: 24px;
 }
 
-.navigation a {
-  padding: 15px;
-  width: 350px;
-  height: 323px;
-}
-
 .card:hover {
-  background-color:#FE8A02;
+  background-color: #fe8a02;
   color: #fff;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .card:hover h3 {
@@ -260,7 +266,7 @@ color: #2A2626;
 }
 
 #ikea-effect {
-position: relative;
+  position: relative;
 }
 
 .text-m-left30px {
@@ -268,13 +274,13 @@ position: relative;
 }
 
 .cognitive {
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   font-size: 24px;
   margin: 0;
 }
 
 .text-section {
-  font-family: 'Neucha';
+  font-family: 'Neucha', sans-serif;
   font-size: 34px;
   margin-top: 30px;
   display: block;
@@ -296,7 +302,7 @@ position: relative;
 }
 
 .head-work h4 {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 700;
   padding-left: 10px;
@@ -305,8 +311,8 @@ position: relative;
 }
 
 .text-work {
-display: flex;
-column-gap: 30px;
+  display: flex;
+  column-gap: 30px;
 }
 
 .paragraph {
@@ -315,12 +321,12 @@ column-gap: 30px;
 }
 
 .paragraph p {
-margin: 0;
-line-height: 1.6em;
+  margin: 0;
+  line-height: 1.6em;
 }
 
 #premature-optimization {
-position: relative;
+  position: relative;
 }
 
 .img-m-left30px {
@@ -342,7 +348,7 @@ position: relative;
 .form {
   height: 190px;
   width: 1110px;
-  background-color: #42413C;
+  background-color: #42413c;
   display: flex;
 }
 
@@ -353,8 +359,8 @@ position: relative;
 }
 
 .input-email {
-width: 423px;
-padding-left: 67px;
+  width: 423px;
+  padding-left: 67px;
 }
 
 .input-email p {
@@ -378,9 +384,9 @@ padding-left: 67px;
 .btn-input {
   width: 70px;
   height: 50px;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
   position: relative;
-  top:68px;
+  top: 68px;
   left: 18px;
 }
 
@@ -392,17 +398,17 @@ padding-left: 67px;
   position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
-  top:13px;
+  top: 13px;
   right: 25px;
 }
 
 .btn-input:hover {
-  background-color:#EA7600;
+  background-color: #ea7600;
 }
 
 .contact-information {
   margin-top: 60px;
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
