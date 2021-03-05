@@ -126,6 +126,10 @@ section {
   color: #B09A81;
 }
 
+img {
+  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  padding-top: 7px;
+}
 /* style basis */ 
 .head-page {
   position: relative;
@@ -283,7 +287,7 @@ position: relative;
 }
 
 .how-work {
-  margin-top: 100px;
+  margin-top: 94px;
 }
 
 .head-work {
