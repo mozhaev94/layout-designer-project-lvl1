@@ -18,4 +18,4 @@ $ make install
 make lint
 ```
 
-a.mozhaev94.surge.sh
+http://a.mozhaev94.surge.sh/
