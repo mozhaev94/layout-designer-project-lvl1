@@ -7,7 +7,9 @@
     "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
   "main": "",
-  "dependencies": {},
+  "dependencies": {
+    "parcel": "1.12.3"
+  },
   "devDependencies": {
     "htmlhint": "^0.14.2",
     "stylelint": "^13.8.0",
@@ -17,5 +19,8 @@
     "surge": "^0.21.7"
   },
   "author": "Nikita Mikhaylov",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "dev": "parcel src/index.html"
+  }
 }
