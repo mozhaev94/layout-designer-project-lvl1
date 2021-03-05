@@ -128,6 +128,7 @@ section {
 
 .relative {
   position: relative;
+  display: block;
 }
 /* style basis */ 
 .head-page {
